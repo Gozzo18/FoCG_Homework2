@@ -1,4 +1,4 @@
-# Yocto/Pathtrace: Tiny Path Tracer
+# Homework 2 - Yocto/Pathtrace: Tiny Path Tracer
 
 In this homework, you will learn how to build a simple path tracer with enough 
 features to make it robust for many scenes. In particular, you will learn how to 
@@ -123,12 +123,3 @@ You do not have to do them all, but maybe try to make your own scene if you can.
     - for speed, you may want to add support for the Embree ray tracing kernels as in Yocto/Trace
     - render this only if you have a fast machine or push them to the cloud;
       if you can manage to get cloud rendering working, let me know how you did it
-
-## Submission
-
-To submit the homework, you need to pack a ZIP file that contains the code 
-you write and the images it generates, i.e. the ZIP _with only the 
-`yocto_pathtrace/` and `out/` directories_.
-The file should be called `<lastname>_<firstname>_<studentid>.zip` 
-(`<cognome>_<nome>_<matricola>.zip`) and you should exclude 
-all other directories. Send it on Google Classroom.
